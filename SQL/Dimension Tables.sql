@@ -50,25 +50,3 @@ select * from dim_segments;
 drop table stagging_facts;
 #mapping data 
 
-
-CREATE TABLE facts (
-order_id varchar(20) primary key not null,
-order_date date,
-ship_date date,
-customer_id varchar(15),
-product_id varchar(30),
-sales decimal,
-quantity int,
-discount decimal,
-profit decimal,
-segment_id varchar(10),
-location_id varchar(10),
-
-foreign key (customer_id) references dim_customers(customer_id),
-foreign key (product_id) references dim_product(product_id),
-foreign key (segment_id) references dim_segments(segment_id),
-foreign key (location_id) references dim_location(location_id)
-);
-drop table facts;
-SET FOREIGN_KEY_CHECKS = 0;
-SET FOREIGN_KEY_CHECKS = 0;
