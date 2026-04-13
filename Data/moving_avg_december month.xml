@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Pratik Sharma</LastAuthor>
+  <LastSaved>2026-04-13T09:17:05Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11865</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="97" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:Width="57"/>
+   <Column ss:Width="55.5"/>
+   <Column ss:Width="82.5"/>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">region</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">order_date</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">total_sales</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">moving_average</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-01</Data></Cell>
+    <Cell><Data ss:Type="Number">58.2</Data></Cell>
+    <Cell><Data ss:Type="Number">58.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-05</Data></Cell>
+    <Cell><Data ss:Type="Number">1621.83</Data></Cell>
+    <Cell><Data ss:Type="Number">840.01499999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-06</Data></Cell>
+    <Cell><Data ss:Type="Number">1590.24</Data></Cell>
+    <Cell><Data ss:Type="Number">1606.0350000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-07</Data></Cell>
+    <Cell><Data ss:Type="Number">442.88</Data></Cell>
+    <Cell><Data ss:Type="Number">1016.56</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-08</Data></Cell>
+    <Cell><Data ss:Type="Number">1034.71</Data></Cell>
+    <Cell><Data ss:Type="Number">738.79499999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-09</Data></Cell>
+    <Cell><Data ss:Type="Number">236.08</Data></Cell>
+    <Cell><Data ss:Type="Number">635.39499999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-10</Data></Cell>
+    <Cell><Data ss:Type="Number">364.27</Data></Cell>
+    <Cell><Data ss:Type="Number">300.17500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-12</Data></Cell>
+    <Cell><Data ss:Type="Number">4717.08</Data></Cell>
+    <Cell><Data ss:Type="Number">2540.6750000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-13</Data></Cell>
+    <Cell><Data ss:Type="Number">183.41</Data></Cell>
+    <Cell><Data ss:Type="Number">2450.2449999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-15</Data></Cell>
+    <Cell><Data ss:Type="Number">6.16</Data></Cell>
+    <Cell><Data ss:Type="Number">94.784999999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-16</Data></Cell>
+    <Cell><Data ss:Type="Number">2712.12</Data></Cell>
+    <Cell><Data ss:Type="Number">1359.14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-19</Data></Cell>
+    <Cell><Data ss:Type="Number">832.14</Data></Cell>
+    <Cell><Data ss:Type="Number">1772.13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-20</Data></Cell>
+    <Cell><Data ss:Type="Number">2480.09</Data></Cell>
+    <Cell><Data ss:Type="Number">1656.115</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-21</Data></Cell>
+    <Cell><Data ss:Type="Number">1897.92</Data></Cell>
+    <Cell><Data ss:Type="Number">2189.0050000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-22</Data></Cell>
+    <Cell><Data ss:Type="Number">11.76</Data></Cell>
+    <Cell><Data ss:Type="Number">954.84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-24</Data></Cell>
+    <Cell><Data ss:Type="Number">3020.93</Data></Cell>
+    <Cell><Data ss:Type="Number">1516.345</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-26</Data></Cell>
+    <Cell><Data ss:Type="Number">1171.08</Data></Cell>
+    <Cell><Data ss:Type="Number">2096.0050000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-27</Data></Cell>
+    <Cell><Data ss:Type="Number">1308.79</Data></Cell>
+    <Cell><Data ss:Type="Number">1239.9349999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-28</Data></Cell>
+    <Cell><Data ss:Type="Number">1049.97</Data></Cell>
+    <Cell><Data ss:Type="Number">1179.3800000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-29</Data></Cell>
+    <Cell><Data ss:Type="Number">1831.67</Data></Cell>
+    <Cell><Data ss:Type="Number">1440.82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-30</Data></Cell>
+    <Cell><Data ss:Type="Number">551.99</Data></Cell>
+    <Cell><Data ss:Type="Number">1191.83</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2014-12-31</Data></Cell>
+    <Cell><Data ss:Type="Number">475.94</Data></Cell>
+    <Cell><Data ss:Type="Number">513.96500000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-01</Data></Cell>
+    <Cell><Data ss:Type="Number">6842.44</Data></Cell>
+    <Cell><Data ss:Type="Number">3659.19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-03</Data></Cell>
+    <Cell><Data ss:Type="Number">719</Data></Cell>
+    <Cell><Data ss:Type="Number">3780.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-04</Data></Cell>
+    <Cell><Data ss:Type="Number">485.25</Data></Cell>
+    <Cell><Data ss:Type="Number">602.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-05</Data></Cell>
+    <Cell><Data ss:Type="Number">96.06</Data></Cell>
+    <Cell><Data ss:Type="Number">290.65499999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-06</Data></Cell>
+    <Cell><Data ss:Type="Number">2246.69</Data></Cell>
+    <Cell><Data ss:Type="Number">1171.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-07</Data></Cell>
+    <Cell><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell><Data ss:Type="Number">1173.07</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-08</Data></Cell>
+    <Cell><Data ss:Type="Number">473.66</Data></Cell>
+    <Cell><Data ss:Type="Number">286.55500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-10</Data></Cell>
+    <Cell><Data ss:Type="Number">62.06</Data></Cell>
+    <Cell><Data ss:Type="Number">267.86</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-11</Data></Cell>
+    <Cell><Data ss:Type="Number">980.56</Data></Cell>
+    <Cell><Data ss:Type="Number">521.30999999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-12</Data></Cell>
+    <Cell><Data ss:Type="Number">1516.15</Data></Cell>
+    <Cell><Data ss:Type="Number">1248.355</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-13</Data></Cell>
+    <Cell><Data ss:Type="Number">1460.45</Data></Cell>
+    <Cell><Data ss:Type="Number">1488.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-14</Data></Cell>
+    <Cell><Data ss:Type="Number">792.09</Data></Cell>
+    <Cell><Data ss:Type="Number">1126.27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-15</Data></Cell>
+    <Cell><Data ss:Type="Number">1055.1400000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">923.61500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-16</Data></Cell>
+    <Cell><Data ss:Type="Number">4.9800000000000004</Data></Cell>
+    <Cell><Data ss:Type="Number">530.05999999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-17</Data></Cell>
+    <Cell><Data ss:Type="Number">543.15</Data></Cell>
+    <Cell><Data ss:Type="Number">274.065</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-18</Data></Cell>
+    <Cell><Data ss:Type="Number">6.85</Data></Cell>
+    <Cell><Data ss:Type="Number">275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-19</Data></Cell>
+    <Cell><Data ss:Type="Number">3207.66</Data></Cell>
+    <Cell><Data ss:Type="Number">1607.2550000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-20</Data></Cell>
+    <Cell><Data ss:Type="Number">39.409999999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">1623.5350000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-21</Data></Cell>
+    <Cell><Data ss:Type="Number">1778.95</Data></Cell>
+    <Cell><Data ss:Type="Number">909.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-24</Data></Cell>
+    <Cell><Data ss:Type="Number">1779.72</Data></Cell>
+    <Cell><Data ss:Type="Number">1779.335</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-25</Data></Cell>
+    <Cell><Data ss:Type="Number">1240.46</Data></Cell>
+    <Cell><Data ss:Type="Number">1510.09</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-27</Data></Cell>
+    <Cell><Data ss:Type="Number">1127.7</Data></Cell>
+    <Cell><Data ss:Type="Number">1184.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-30</Data></Cell>
+    <Cell><Data ss:Type="Number">3251.34</Data></Cell>
+    <Cell><Data ss:Type="Number">2189.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2015-12-31</Data></Cell>
+    <Cell><Data ss:Type="Number">975.96</Data></Cell>
+    <Cell><Data ss:Type="Number">2113.65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-01</Data></Cell>
+    <Cell><Data ss:Type="Number">1278.54</Data></Cell>
+    <Cell><Data ss:Type="Number">1127.25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-02</Data></Cell>
+    <Cell><Data ss:Type="Number">468.95</Data></Cell>
+    <Cell><Data ss:Type="Number">873.745</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-03</Data></Cell>
+    <Cell><Data ss:Type="Number">3079.54</Data></Cell>
+    <Cell><Data ss:Type="Number">1774.2449999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-04</Data></Cell>
+    <Cell><Data ss:Type="Number">104.85</Data></Cell>
+    <Cell><Data ss:Type="Number">1592.1949999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-05</Data></Cell>
+    <Cell><Data ss:Type="Number">407.98</Data></Cell>
+    <Cell><Data ss:Type="Number">256.41500000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-06</Data></Cell>
+    <Cell><Data ss:Type="Number">2801.46</Data></Cell>
+    <Cell><Data ss:Type="Number">1604.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-08</Data></Cell>
+    <Cell><Data ss:Type="Number">1862.01</Data></Cell>
+    <Cell><Data ss:Type="Number">2331.7350000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-10</Data></Cell>
+    <Cell><Data ss:Type="Number">824.51</Data></Cell>
+    <Cell><Data ss:Type="Number">1343.26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-11</Data></Cell>
+    <Cell><Data ss:Type="Number">3608</Data></Cell>
+    <Cell><Data ss:Type="Number">2216.2550000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-12</Data></Cell>
+    <Cell><Data ss:Type="Number">823.8</Data></Cell>
+    <Cell><Data ss:Type="Number">2215.9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-13</Data></Cell>
+    <Cell><Data ss:Type="Number">1124.1099999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">973.95500000000004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-14</Data></Cell>
+    <Cell><Data ss:Type="Number">297.64</Data></Cell>
+    <Cell><Data ss:Type="Number">710.875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-15</Data></Cell>
+    <Cell><Data ss:Type="Number">666.13</Data></Cell>
+    <Cell><Data ss:Type="Number">481.88499999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-16</Data></Cell>
+    <Cell><Data ss:Type="Number">585.13</Data></Cell>
+    <Cell><Data ss:Type="Number">625.63</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-17</Data></Cell>
+    <Cell><Data ss:Type="Number">2074.96</Data></Cell>
+    <Cell><Data ss:Type="Number">1330.0450000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-18</Data></Cell>
+    <Cell><Data ss:Type="Number">3031.07</Data></Cell>
+    <Cell><Data ss:Type="Number">2553.0149999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-19</Data></Cell>
+    <Cell><Data ss:Type="Number">471.62</Data></Cell>
+    <Cell><Data ss:Type="Number">1751.345</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-22</Data></Cell>
+    <Cell><Data ss:Type="Number">986.22</Data></Cell>
+    <Cell><Data ss:Type="Number">728.92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-23</Data></Cell>
+    <Cell><Data ss:Type="Number">1506.02</Data></Cell>
+    <Cell><Data ss:Type="Number">1246.1199999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-24</Data></Cell>
+    <Cell><Data ss:Type="Number">117.12</Data></Cell>
+    <Cell><Data ss:Type="Number">811.57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-25</Data></Cell>
+    <Cell><Data ss:Type="Number">8396.39</Data></Cell>
+    <Cell><Data ss:Type="Number">4256.7550000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-26</Data></Cell>
+    <Cell><Data ss:Type="Number">1495.02</Data></Cell>
+    <Cell><Data ss:Type="Number">4945.7049999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-27</Data></Cell>
+    <Cell><Data ss:Type="Number">20.16</Data></Cell>
+    <Cell><Data ss:Type="Number">757.59</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-29</Data></Cell>
+    <Cell><Data ss:Type="Number">81.010000000000005</Data></Cell>
+    <Cell><Data ss:Type="Number">50.585000000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-30</Data></Cell>
+    <Cell><Data ss:Type="Number">487.7</Data></Cell>
+    <Cell><Data ss:Type="Number">284.35500000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2016-12-31</Data></Cell>
+    <Cell><Data ss:Type="Number">504.17</Data></Cell>
+    <Cell><Data ss:Type="Number">495.935</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-01</Data></Cell>
+    <Cell><Data ss:Type="Number">1975.81</Data></Cell>
+    <Cell><Data ss:Type="Number">1239.99</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-02</Data></Cell>
+    <Cell><Data ss:Type="Number">3710.72</Data></Cell>
+    <Cell><Data ss:Type="Number">2843.2649999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-03</Data></Cell>
+    <Cell><Data ss:Type="Number">1177.92</Data></Cell>
+    <Cell><Data ss:Type="Number">2444.3200000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-05</Data></Cell>
+    <Cell><Data ss:Type="Number">629.79</Data></Cell>
+    <Cell><Data ss:Type="Number">903.85500000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-06</Data></Cell>
+    <Cell><Data ss:Type="Number">10.68</Data></Cell>
+    <Cell><Data ss:Type="Number">320.23500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-07</Data></Cell>
+    <Cell><Data ss:Type="Number">374.38</Data></Cell>
+    <Cell><Data ss:Type="Number">192.53</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-08</Data></Cell>
+    <Cell><Data ss:Type="Number">4631.28</Data></Cell>
+    <Cell><Data ss:Type="Number">2502.83</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-09</Data></Cell>
+    <Cell><Data ss:Type="Number">2121.9299999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">3376.605</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-10</Data></Cell>
+    <Cell><Data ss:Type="Number">2190.56</Data></Cell>
+    <Cell><Data ss:Type="Number">2156.2449999999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-13</Data></Cell>
+    <Cell><Data ss:Type="Number">494</Data></Cell>
+    <Cell><Data ss:Type="Number">1342.28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-14</Data></Cell>
+    <Cell><Data ss:Type="Number">134.91</Data></Cell>
+    <Cell><Data ss:Type="Number">314.45499999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-15</Data></Cell>
+    <Cell><Data ss:Type="Number">296.7</Data></Cell>
+    <Cell><Data ss:Type="Number">215.80500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-16</Data></Cell>
+    <Cell><Data ss:Type="Number">655.62</Data></Cell>
+    <Cell><Data ss:Type="Number">476.16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-17</Data></Cell>
+    <Cell><Data ss:Type="Number">507.11</Data></Cell>
+    <Cell><Data ss:Type="Number">581.36500000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-18</Data></Cell>
+    <Cell><Data ss:Type="Number">344.23</Data></Cell>
+    <Cell><Data ss:Type="Number">425.67</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-19</Data></Cell>
+    <Cell><Data ss:Type="Number">230.31</Data></Cell>
+    <Cell><Data ss:Type="Number">287.27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-21</Data></Cell>
+    <Cell><Data ss:Type="Number">1136.8900000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">683.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-22</Data></Cell>
+    <Cell><Data ss:Type="Number">784.48</Data></Cell>
+    <Cell><Data ss:Type="Number">960.68499999999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-23</Data></Cell>
+    <Cell><Data ss:Type="Number">13.48</Data></Cell>
+    <Cell><Data ss:Type="Number">398.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-24</Data></Cell>
+    <Cell><Data ss:Type="Number">4846.28</Data></Cell>
+    <Cell><Data ss:Type="Number">2429.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-25</Data></Cell>
+    <Cell><Data ss:Type="Number">157.41</Data></Cell>
+    <Cell><Data ss:Type="Number">2501.8449999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-28</Data></Cell>
+    <Cell><Data ss:Type="Number">1197.6600000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">677.53499999999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-29</Data></Cell>
+    <Cell><Data ss:Type="Number">885.13</Data></Cell>
+    <Cell><Data ss:Type="Number">1041.395</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">West</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-30</Data></Cell>
+    <Cell><Data ss:Type="Number">58.36</Data></Cell>
+    <Cell><Data ss:Type="Number">471.745</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>23</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

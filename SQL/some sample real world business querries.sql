@@ -51,3 +51,17 @@ FROM (
     WHERE s.segments = 'Corporate'
     GROUP BY f.order_date
 )t ;
+
+### Moving average of december month from west Region
+
+select region, order_date, total_sales, avg(total_sales) over( order by order_date rows between 1 preceding and current row) as moving_average
+from (
+select l.region, sum(f.sales) as total_sales,f.order_date
+from dim_location l 
+join facts f
+on l.location_key = f.location_key
+where region = "west"
+and month(f.order_date) = 12
+group by f.order_date
+) t
+
