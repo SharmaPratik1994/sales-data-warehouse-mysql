@@ -63,5 +63,16 @@ on l.location_key = f.location_key
 where region = "west"
 and month(f.order_date) = 12
 group by f.order_date
-) t
+) t;
+
+#### usage of CTEs to find out growth in sales in daily basis.
+ with daily_sales as(
+ select order_date, sum(sales) as total_sales
+ from facts
+ group by order_date
+ )
+ select order_date, total_sales,
+ lag(total_sales) over (order by order_date) as previous_sales
+ from daily_sales;
+ 
 
