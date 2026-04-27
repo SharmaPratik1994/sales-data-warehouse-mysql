@@ -75,4 +75,26 @@ group by f.order_date
  lag(total_sales) over (order by order_date) as previous_sales
  from daily_sales;
  
-
+ 
+ ##### Retrieve the data of customers whose sales are greater than 10000 and who are from california
+ 
+ select * 
+ from dim_customers c
+ join facts f 
+ on c.customer_key = f.customer_key
+ join dim_location l
+ on l.location_key = f.location_key
+ where f.sales > 10000 and l.state = "California";
+ 
+ select * from dim_location;
+ 
+ ### Top 5 product based on profits with city of the customers,
+ 
+ select p.product_name, f.profit, l.city
+ from dim_product p
+ join facts f 
+ on p.product_key = f.product_key
+ join dim_location l 
+ on l.location_key = f.location_key
+order by f.profit desc 
+limit 5;
