@@ -108,3 +108,15 @@ group by p.product_name
 order by sum(f.sales) desc
 limit 5;
 
+### Retrieve the SUM of Profits of Each Customers and Arrange the profits in DESC Order.alter
+
+select c.customer_name, sum(f.profit) as total_profit
+from dim_customers c
+join facts f
+on c.customer_key = f.customer_key
+group by c.customer_name
+order by total_profit desc;
+
+
+
+
