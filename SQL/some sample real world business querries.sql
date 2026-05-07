@@ -98,3 +98,13 @@ group by f.order_date
  on l.location_key = f.location_key
 order by f.profit desc 
 limit 5;
+
+### Retrieve the SUM of sales of each Product and Arrange the Sales in DESC Order
+select p.product_name,sum(f.sales)
+from dim_product p
+join facts f
+on p.product_key = f.product_key
+group by p.product_name
+order by sum(f.sales) desc
+limit 5;
+
